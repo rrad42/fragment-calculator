@@ -94,9 +94,9 @@ export function NTermMass(ionSeries) {
  */
 export function CTermMass(ionSeries) {
     if (ionSeries === 'x') {
-        return new BigNumber(elements['proton'])
-            .minus(new BigNumber(elements['C']))
-            .minus(new BigNumber(elements['O']).times(2));
+        return new BigNumber(elements['O']).times(2)
+            .plus(new BigNumber(elements['C']))
+            .plus(new BigNumber(elements['proton']));
     }
     if (ionSeries === 'y') {
         return new BigNumber(elements['O'])
