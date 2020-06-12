@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/fragment-calculator/static/js/main.f1ac67d6.chunk.js",
-    "main.js.map": "/fragment-calculator/static/js/main.f1ac67d6.chunk.js.map",
+    "main.js": "/fragment-calculator/static/js/main.a7ddeee8.chunk.js",
+    "main.js.map": "/fragment-calculator/static/js/main.a7ddeee8.chunk.js.map",
     "runtime-main.js": "/fragment-calculator/static/js/runtime-main.55338fbf.js",
     "runtime-main.js.map": "/fragment-calculator/static/js/runtime-main.55338fbf.js.map",
     "static/js/2.49d1451b.chunk.js": "/fragment-calculator/static/js/2.49d1451b.chunk.js",
     "static/js/2.49d1451b.chunk.js.map": "/fragment-calculator/static/js/2.49d1451b.chunk.js.map",
     "index.html": "/fragment-calculator/index.html",
-    "precache-manifest.c3413c1a0ee0c1258f8e96a8c9f43af9.js": "/fragment-calculator/precache-manifest.c3413c1a0ee0c1258f8e96a8c9f43af9.js",
+    "precache-manifest.ec2530836b9a67e0bd246da305afe8aa.js": "/fragment-calculator/precache-manifest.ec2530836b9a67e0bd246da305afe8aa.js",
     "service-worker.js": "/fragment-calculator/service-worker.js",
     "static/js/2.49d1451b.chunk.js.LICENSE.txt": "/fragment-calculator/static/js/2.49d1451b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.55338fbf.js",
     "static/js/2.49d1451b.chunk.js",
-    "static/js/main.f1ac67d6.chunk.js"
+    "static/js/main.a7ddeee8.chunk.js"
   ]
 }
