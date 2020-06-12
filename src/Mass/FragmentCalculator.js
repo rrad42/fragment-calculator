@@ -94,7 +94,7 @@ export default function FragmentCalculator(
             leftIons[i],
             rightIons[rightIons.length - (i + 1)],
             ionSeries[ionSeries.length - 1] +
-                (rightIons.length - (i + 1)).toString(),
+                (rightIons.length - i).toString(),
             rightSequences[rightSequences.length - (i + 1)],
         ]);
     }
