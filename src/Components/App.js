@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import PeptideForm, { defaultInputs } from './PeptideForm';
 import FragmentTable from './FragmentTable';
 
+function bringIntoView(element) {
+    if (element.getBoundingClientRect().top > window.innerHeight - 100) {
+        element.scrollIntoView();
+    }
+}
+
 /**
  * Main component for the App
  */
@@ -16,6 +22,7 @@ export default function App() {
                         <PeptideForm
                             onSubmit={(data) => {
                                 setInputs(data);
+                                bringIntoView(document.getElementById('results'));
                             }}
                         />
                     </div>
@@ -23,7 +30,7 @@ export default function App() {
             </div>
             <div className="col-md-8">
                 <div className="card">
-                    <div className="card-body">
+                    <div id="results" className="card-body">
                         <FragmentTable {...inputs} />
                     </div>
                 </div>
