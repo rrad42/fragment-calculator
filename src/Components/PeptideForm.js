@@ -42,7 +42,7 @@ export const defaultInputs = {
 function makeModFields(inputs, setInputs) {
     const mods = inputs.mods;
     const modFields = [];
-    for (let i = 0; i < inputs.mods.length; ++i) {
+    for (let i in inputs.mods) {
         let mod = mods[i];
         modFields.push(
             <div key={i} className="form-row">
