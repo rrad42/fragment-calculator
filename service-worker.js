@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fragment-calculator/precache-manifest.ec2530836b9a67e0bd246da305afe8aa.js"
+  "/fragment-calculator/precache-manifest.44ee5a2357947f4f2b833afd4296ac01.js"
 );
 
 self.addEventListener('message', (event) => {

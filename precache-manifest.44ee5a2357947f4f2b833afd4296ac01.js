@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d06395c35336088fc428118b8fb3a8dd",
+    "revision": "47edafad4e3a8f713b7eef578cab6ff3",
     "url": "/fragment-calculator/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fragment-calculator/static/js/2.49d1451b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "722254f55fac97e7f4b6",
-    "url": "/fragment-calculator/static/js/main.a7ddeee8.chunk.js"
+    "revision": "80043e53df6e750b012b",
+    "url": "/fragment-calculator/static/js/main.950ab778.chunk.js"
   },
   {
     "revision": "a54cb9145e3c39541138",
